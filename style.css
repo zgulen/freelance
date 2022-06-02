@@ -1,0 +1,27 @@
+/*! NavBar */
+.navbar{
+    height: 75px;
+}
+
+
+.carousel-item{
+    max-height: calc(100vh - 75px);
+}
+
+.slider{
+    transition: opacity 1s;
+}
+.slider:hover{
+    background-color: black;
+    opacity: .5;
+}
+
+.position-relative{
+    transition: all .5s;
+}
+.buy:hover{
+    background-color: white !important;
+    opacity: 0.8;
+    color: #ff4444 !important;
+    border: 1px solid red !important;
+}
